@@ -1,0 +1,61 @@
+.btnContainer .card {
+    /* min-width: 640px; */
+    text-align: center;
+    width: 540px;
+    min-height: 440px;
+    padding: 40px 30px;
+    margin: 10% auto 0 auto;
+    border: transparent;
+}
+
+
+
+.login {
+    background: #4158A1;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 20px 103px;
+    margin-bottom: 20px;
+    font-size: 18pt;
+    border-radius: 10;
+    border: transparent;
+}
+
+.login:hover {
+    background: #314B8D;
+}
+
+.userBtn {
+    background: #4158A1;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 20px 68px;
+    margin-bottom: 20px;
+    font-size: 18pt;
+    border-radius: 10;
+    border: transparent;
+
+    
+}
+
+.userBtn:hover {
+    background: #314B8D;
+}
+
+.container {
+    /* position: relative; */
+    padding-top: 100px;
+    /* left: 50%; */
+}
+
+@media screen and (max-width: 960px) {
+    .card {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .card  {
+        width: 100%;
+        min-width: 0;
+    }
+}

@@ -1,0 +1,115 @@
+.header {
+    font-weight: 700;
+    font-size: 24pt;
+    color: #4158A1
+}
+
+.stepIcon {
+    color: #4158A1;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.stepIcon:hover {
+    color: #4158A1;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.backIconBtn {
+    background: transparent;
+    border: transparent;
+    padding-bottom: 20px;
+}
+
+.stepText {
+    padding-left: 10px;
+    font-size: 12pt;
+    font-weight: 500;
+    color: rgb(85, 85, 85)
+
+}
+
+
+.signupBtn {
+    background: #4158A1;
+    border-color: #4158A1;
+    border-radius: 0;
+    font-size: 16pt;
+    padding: 10px 30px;
+
+}
+
+.signupBtn:visited {
+    background: #314B8D;
+}
+
+.signupBtn:focus {
+    background: #314B8D;
+}
+
+.signupBtn:hover {
+    background: #314B8D;
+}
+
+.signupBtn:active {
+    background: none;
+}
+
+.signupBtn:disabled {
+    background: #7d91c5;
+    border-color: #7d91c5;
+}
+
+
+/* .formContainer {
+    padding: 50px 100px;
+    width: 500px;
+    margin: auto;
+
+} */
+
+.toggleText {
+    font-size: 14pt;
+}
+
+.toggleBtn {
+    color: #4158A1;
+    font-weight: bold;
+    background: transparent;
+    border: transparent;
+}
+
+.toggleBtn:hover {
+    color: #FF8827;
+    font-weight: bold;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.signupForm .card {
+    /* min-width: 640px; */
+    text-align: center;
+    width: 540px;
+    min-height: 440px;
+    padding: 40px 30px;
+    margin: 10% auto 0 auto;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 2px 1px -1px rgb(0 0 0 / 12%);
+    border-radius: 10px;
+}
+
+.signupForm .card form {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+    .signupForm .card {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .signupForm .card {
+        width: 100%;
+        min-width: 0;
+    }
+}

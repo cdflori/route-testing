@@ -1,0 +1,23 @@
+.divFooter {
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    
+}
+
+.footer {
+    display: block;
+    /* padding: px; */
+    height: 120px;
+    width: 100%;
+}
+
+.text {
+    padding: 15px;
+    color: rgb(67, 67, 67)
+}
